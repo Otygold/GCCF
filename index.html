@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="An Evaluation form website, GCCF Testimonial form, GCCF">
+    <meta name="author" content="Olowe H. Othniel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GCCF Testimonies Form</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="logo-text">
+          <div class="view">
+            <!-- <img src="./image/GCCF_logo.jpg" alt="GCCF logo" /> -->
+          </div>
+          <div>
+          <h1 class="font-weight-bold">Welcome</h1>
+          </div>
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <hr class="bg-white" />
+          <h6 class="text-center">
+            Please share your testimonies so that others can be blessed and
+            encouraged to trust God for theirs
+          </h6>
+        </div>
+      </div>
+
+      <form
+        action="mailto:oloweothniel09@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-4"
+            >Full Name*<br />
+            <input
+              type="text"
+              name="yourName"
+              id="text"
+              required=""
+              placeholder="Ajewole Johnson"
+            />
+          </label>
+
+          <label class="col-md-4"
+            >Email*<br />
+            <input
+              type="email"
+              name="yourEmail"
+              id="text"
+              required=""
+              placeholder="johnsonajewole@gmail.com*"
+            />
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-4"
+            >Birthday*<br />
+            <input
+              type="text"
+              name="yourBdate"
+              id="text"
+              required=""
+              placeholder="08-Aug"
+            />
+          </label>
+
+          <label class="col-md-4"
+            >Phone*<br />
+            <input
+              type="number"
+              name="yourTelno"
+              id="text"
+              required=""
+              placeholder="+234706521..."
+            />
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-8"
+            >Gender*<br />
+            <label class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="Male"
+              />&nbsp;Male</label
+            >
+            <label class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="Female"
+              />&nbsp;Female</label
+            >
+            <label class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="Female"
+              />&nbsp;Others</label
+            >
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-8"
+            >How has God touched you through GCCF<br />
+            <textarea
+              id="message"
+              name="yourTestimony"
+              required=""
+              placeholder="Write your major testimony here"
+              cols="48"
+              rows="5"
+            >
+            </textarea>
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <label class="col-md-8"
+            >What is your advice for the coming generation?<br />
+            <textarea
+              id="message"
+              name="yourAdvice"
+              required=""
+              placeholder="What will you like to say to future members of GCCF"
+              cols="48"
+              rows="5"
+            >
+            </textarea>
+          </label>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <button
+            class="btn btn-success"
+            type="submit"
+            style="width: 50%; position: absolute; margin-left:17%;"
+          >
+            Send Via Email
+          </button>
+        </div>
+      </form>
+    </div>
+    
+    <footer>
+    <p>&copy Otycodes Tech 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
